@@ -69,7 +69,7 @@
 	#ifdef NEOPIXEL_RGBW
 		#define LED_DRIVER NeoPixelBus<NeoGrbwFeature, NeoEsp32I2s1Sk6812Method>
 	#elif NEOPIXEL_RGB
-		#define LED_DRIVER NeoPixelBus<NeoGrbFeature, NeoEsp32I2s1Ws2812xMethod>
+		#define LED_DRIVER NeoPixelBus<NeoGrbFeature, NeoEsp32LcdX16Ws2812xMethod>
 	#endif
 #endif
 
